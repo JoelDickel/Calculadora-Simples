@@ -40,6 +40,7 @@ namespace Calculadora
 
                 case 'x':
                 case 'X':
+                case '*':
                     resultado = num1 * num2;
                     Console.WriteLine("O resultado da multiplicação é: " + resultado);
                     break;
